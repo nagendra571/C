@@ -1,12 +1,12 @@
 
 #include "ammu_math.h"
 
-int main()
+
+int main()   // is the entry point of the program
 {
-    
-    int result = SumOfTwoProperties(5, 10);
 
-    printf("The result of the sum is: %d\n", result);
+    printf("I got 100%% marks in the exam\n");
 
-    return 0;
+
+    return 0;   // 0 means the program ended successfully
 }
