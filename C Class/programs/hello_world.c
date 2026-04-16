@@ -1,16 +1,18 @@
 
 #include <stdio.h>
-#include "ammu_math.h"
 
 int main()  // is the entry point of the program
 {
+    printf("Enter your age: ");    
+    
+    
+    int age;  // declare a variable named age of type int (integer)
+    scanf("%d", &age);  // & means "address of" the variable age
 
-    int result1 = SumOfTwoProperties(10, 20);
+    printf("You are %d years old.\n", age);
 
-    printf("I got 100%% marks in the exam\n");
 
-    result1 = generic_result;
-
+    
     return 0;   // 0 means the program ended successfully
 }
 
